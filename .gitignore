@@ -1,0 +1,57 @@
+# Đường dẫn thư mục mục tiêu (chứa các tệp biên dịch)
+target/
+
+# Thư mục cấu hình IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Thư mục cấu hình Eclipse
+.project
+.classpath
+.settings/
+
+# Thư mục cấu hình IntelliJ IDEA
+*.iml
+.idea/
+*.iws
+
+# Các tệp log
+*.log
+
+# Tệp cấu hình hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Các tệp biên dịch
+*.class
+
+# Các tệp JAR và WAR
+*.jar
+*.war
+
+# Thư mục cấu hình Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Tệp cấu hình Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Các tệp properties bí mật (nếu có)
+application.properties
+application.yml
+
+# Thư mục chứa file temporary của hệ điều hành
+tmp/
+
+# Thư mục chứa dữ liệu runtime của H2 database
+*.h2.db
+
+# Thư mục của node_modules nếu dùng npm/yarn
+node_modules/
+
+# Thư mục chứa các dependencies của Maven
+dependency-reduced-pom.xml
